@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Pokédex</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/pokebal.ico" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img id="logo" src="images/original.png" alt="">
+        </div>
+    </header>
+
+    <div class="loading-screen" id="loading-screen">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <div class="site-container">
+        <div id="response-container"></div>
+        <div id="modal" class="modal">
+            <div class="modal-content" id="modal_content">
+                <span class="close">&times;</span>
+                <div class="links" id="links"></div>
+                <div class="container">
+                    <div class="rechts" id="rechts"></div>
+                    <div id="stats"></div>
+                    <div id="abilities"></div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <button class="previous">
+            Vorige
+        </button>
+        <button class="next">
+            Volgende
+        </button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
