@@ -161,13 +161,13 @@
 
         // previous button
         let buttonLeft = document.createElement('button')
-        buttonLeft.innerText = "Vorige";
+        buttonLeft.innerText = "Previous";
         buttonLeft.classList.add("detailLeft");
         links.appendChild(buttonLeft)
 
         // next button
         let buttonRight = document.createElement('button')
-        buttonRight.innerText = "Volgende";
+        buttonRight.innerText = "Next";
         buttonRight.classList.add("detailRight");
         links.appendChild(buttonRight)
 
